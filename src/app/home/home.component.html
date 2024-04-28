@@ -1,0 +1,13 @@
+<div class="p-card flex justify-content-center grid-card">
+  <h2>Liens utiles</h2>
+  <div class="p-card flex-card" *ngFor="let item of items">
+    <h3>{{ item.title }}</h3>
+    <a
+      [href]="item.src"
+      target="_blank"
+      rel="noopener noreferrer"
+      [ngClass]="item.icon"
+      class="p-button p-button-lg"
+    ></a>
+  </div>
+</div>

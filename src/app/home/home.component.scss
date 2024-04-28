@@ -1,0 +1,11 @@
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+}
+
+.flex-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
