@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/vela-orange/theme.css";
+
+.main-app {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.p-card {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+html {
+  background-color: #293446;
+}
