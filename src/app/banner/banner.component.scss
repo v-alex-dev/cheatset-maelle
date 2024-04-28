@@ -1,0 +1,17 @@
+header {
+  background-image: url("../../assets/images/banner/cool_coding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  min-height: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: #ffffffcc;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+}
